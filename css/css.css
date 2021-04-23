@@ -1,0 +1,103 @@
+*{
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    color:white;
+}
+
+.Titulo{
+    font-size: 60px;
+    color: #D94848;
+    margin-top: 55px;
+    padding-bottom: 45px;
+}
+
+section{
+    width: 1300;
+    height: auto;
+    margin: auto;
+}
+
+/Caja_numero_1/
+
+.Caja_numeros{
+    
+    width: 90%;
+    height: auto;
+    border: 1px solid #707070; 
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: auto auto 50px;
+}
+
+.grupo1{
+    display: flex;
+    padding-bottom:25px;
+}
+
+.grupo2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.grupo1 div, .grupo2 div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 50px;
+    box-sizing: border-box;
+    margin: 25px;
+    padding-top: 15px;
+    background-color: #310F40; 
+    margin: auto; 
+    
+}
+
+/Caja_Numero_2/
+
+.Caja_numeros2{
+    
+    justify-content: center;
+    display: flex;
+    border: 1px solid #707070;
+    width: 90%;
+    margin: 50px;
+}
+
+.grupo_1 div{
+    
+    width: 400px;
+    height: auto;
+    border: 1px solid #707070;
+    margin: 5px 45px;
+    font-size: 35px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #9AD2D9;
+    
+    
+}
+
+.grupo_2{
+    
+    display: flex;
+    flex-direction: column-reverse;
+    float: right;
+    
+}
+
+.grupo_2 div{
+    
+    
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border: 1px solid #707070;
+    font-size: 35px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #D9644A;
+    float: left;
+
+}
